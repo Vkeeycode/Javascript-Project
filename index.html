@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Verification of Paystack Account</title>
+  </head>
+  <body>
+    <div class="account">
+      <h1 class="acForm">Account Verification Form</h1>
+      <form>
+        <div class="selectbank">
+          <label for="bank">Select Bank:</label>
+          <select id="bank" required></select>
+        </div>
+
+        <div class="accountNumber">
+          <label for="bank">Account Number:</label>
+          <input type="text" id="accountNumber" required />
+
+          <button type="button" onclick="verifyAccount">Verify</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
